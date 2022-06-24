@@ -1,5 +1,7 @@
 # BSPWM configurations by cahayazulkafli.
 
+Red and black contrast theme.
+
 Mainly for Arch and Gentoo (with slight modifications of rofi powermenu), but still usable for distributions running systemd.
 
 # Required dependencies:
@@ -22,4 +24,4 @@ Failure to do so will make your desktop unusable.
 Audit files thoroughly and edit as you see fit (you WILL edit some stuff, mainly bspwmrc and sxhkdrc).
 
 # Preview of the configuration
-https://imgur.com/a/jO3sRLi
+Link: https://imgur.com/a/jO3sRLi
