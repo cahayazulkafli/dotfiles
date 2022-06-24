@@ -12,6 +12,7 @@ Mainly for Arch and Gentoo (with slight modifications of rofi powermenu), but st
 - picom-jonaburg (Other picom forks are okay)
 - dunst (Notification daemon)
 - nerd-fonts (Icons in the panel and terminal)
+- nitrogen (Wallpaper setter)
 
 # Important things to do after cloning this repository!
 
