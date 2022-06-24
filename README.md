@@ -21,4 +21,5 @@ Failure to do so will make your desktop unusable.
 
 Audit files thoroughly and edit as you see fit (you WILL edit some stuff, mainly bspwmrc and sxhkdrc).
 
-# 
+# Preview of the configuration
+https://imgur.com/a/jO3sRLi
