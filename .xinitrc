@@ -39,8 +39,7 @@ if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
 
-# Start some nice programs
-
+# Start xinit
 if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
   [ -x "$f" ] && . "$f"
@@ -50,6 +49,9 @@ fi
 
 # Set environment variables
 export EDITOR=vim
+export BROWSER=firefox
 
 # Launch bspwm
+export XDG_SESSION_TYPE=x11
+export XDG_CURRENT_DESKTOP=bspwm
 exec bspwm
