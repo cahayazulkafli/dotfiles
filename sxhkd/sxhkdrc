@@ -10,7 +10,7 @@ super + Return
 
 # Rofi App Launcher
 alt + F1  
-	sh /home/cahaya/.config/rofi/main/launcher.sh
+	sh ~/.config/rofi/main/launcher.sh
 
 # Rofi powermenu
 super + x 
