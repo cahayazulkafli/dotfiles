@@ -2,7 +2,7 @@
 
 Red and black contrast theme.
 
-Mainly for Arch and Gentoo (with slight modifications of rofi powermenu), but still usable for distributions running systemd.
+Mainly for Arch and Gentoo (with slight modifications of rofi shell scripts), but still usable for distributions running systemd.
 
 # Required dependencies:
 - bspwm (Tiling window manager to use)
