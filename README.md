@@ -1,4 +1,4 @@
-# BSPWM configurations by cahayazulkafli.
+# BSPWM configurations by cahayazulkafli
 
 Red and black contrast theme.
 
