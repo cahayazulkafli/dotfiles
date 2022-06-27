@@ -19,10 +19,7 @@ Mainly for Arch and Gentoo (with slight modifications of rofi shell scripts), bu
 
 # Important things to do after cloning this repository!
 
-Don't forget to (without sudo) chmod +x all shell scripts that is in this repository.
-Failure to do so will make your desktop unusable.
-
-Audit files thoroughly and edit as you see fit.
+Don't forget to (without sudo) chmod +x all shell scripts that is in this repository. Failure to do so will make your desktop unusable. Audit files thoroughly and edit as you see fit.
 
 To change keybindings to your liking, edit the ~/.config/sxhkd/sxhkdrc file.
 
