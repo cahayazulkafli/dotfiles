@@ -19,15 +19,19 @@ Mainly for Arch and Gentoo (with slight modifications of rofi shell scripts), bu
 
 # Important things to do after cloning this repository!
 
-Don't forget to chmod +x all shell scripts that is in this repository.
+Don't forget to (without sudo) chmod +x all shell scripts that is in this repository.
 Failure to do so will make your desktop unusable.
 
 Audit files thoroughly and edit as you see fit.
 
-To change keybindings to your liking, edit the ~/.config/sxhkd/sxhkdrc file. 
-To change application window placement, edit the ~/.config/bspwm/bspwmrc file.
+To change keybindings to your liking, edit the ~/.config/sxhkd/sxhkdrc file.
+
+To change automatic application window placement per workspaces, edit the ~/.config/bspwm/bspwmrc file.
 
 You need to edit the rofi shell scripts if you're running different init systems than systemd. (systemctl reboot, systemctl suspend, etc.)
 
 # Preview of my configuration
 Link: https://imgur.com/a/jO3sRLi
+
+# 
+Modify all these configurations to your heart's liking!
