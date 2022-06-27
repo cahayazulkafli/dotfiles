@@ -30,7 +30,8 @@ To change automatic application window placement per workspaces, edit the ~/.con
 
 You need to edit the rofi shell scripts if you're running different init systems than systemd. (systemctl reboot, systemctl suspend, etc.)
 
+Modify all these configurations to your heart's liking!
+
 # Preview of my configuration
 Link: https://imgur.com/a/jO3sRLi
 
-Modify all these configurations to your heart's liking!
