@@ -54,4 +54,5 @@ export BROWSER=firefox
 # Launch bspwm
 export XDG_SESSION_TYPE=x11
 export XDG_CURRENT_DESKTOP=bspwm
+exec dbus-run-session bspwm
 exec bspwm
