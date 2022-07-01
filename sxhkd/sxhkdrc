@@ -23,8 +23,12 @@ super + a
 ##---------- Applications ----------##
 
 # Launch Apps
-super + shift + {f,w,e,d,n}
-	{thunar,firefox,geany,discord,nemo}
+super + shift + {f,w,d,n}
+	{thunar,firefox,discord,nemo}
+
+# Emacs
+super + shift + e
+	emacsclient -c -a 'emacs'
 
 # Lockscreen
 ctrl + alt + l
