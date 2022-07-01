@@ -1,4 +1,4 @@
-# BSPWM dotfiles
+# dotfiles for BSPWM, a manual tiling window manager.
 
 Red and black contrast theme.
 
