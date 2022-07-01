@@ -1,4 +1,4 @@
-# BSPWM configurations by cahayazulkafli
+# BSPWM dotfiles
 
 Red and black contrast theme.
 
