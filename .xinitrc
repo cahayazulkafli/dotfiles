@@ -1,11 +1,12 @@
 #!/bin/sh
 
+# Import files and set variables
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
 sysmodmap=/etc/X11/xinit/.Xmodmap
 
-# merge in defaults and keymaps
+# Merge in defaults and keymaps
 
 if [ -f $sysresources ]; then
     xrdb -merge $sysresources
@@ -23,7 +24,7 @@ if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
 
-# Start some nice programs
+# Startx
 
 if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
@@ -32,12 +33,13 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# Set environment variables
+# Set user environment variables
 export EDITOR=vim
 export BROWSER=firefox
+export
 
-# Launch bspwm
+# Launch bspwm with startx
 export XDG_SESSION_TYPE=x11
 export XDG_CURRENT_DESKTOP=bspwm
-#exec dbus-run-session bspwm
+exec dbus-run-session bspwm
 exec bspwm
