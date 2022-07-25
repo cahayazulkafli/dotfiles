@@ -1,7 +1,5 @@
 # dotfiles for BSPWM, a manual tiling window manager.
 
-Red and black contrast theme.
-
 Mainly for Arch and Gentoo (with slight modifications of rofi shell scripts), but still usable for other distributions.
 
 # Required dependencies:
