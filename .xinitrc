@@ -36,7 +36,6 @@ fi
 # Set user environment variables
 export EDITOR=vim
 export BROWSER=firefox
-export
 
 # Launch bspwm with startx
 export XDG_SESSION_TYPE=x11
