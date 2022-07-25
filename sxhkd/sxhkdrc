@@ -6,6 +6,9 @@
 super + Return
 	alacritty
 
+super + shift + Return
+  st
+
 ##---------- Launcher & Menus ----------##
 
 # Rofi App Launcher
@@ -24,7 +27,7 @@ super + a
 
 # Launch Apps
 super + shift + {f,w,d,n}
-	{thunar,firefox,discord,nemo}
+	{thunar,firefox,discord,nitrogen}
 
 # Emacs
 super + shift + e

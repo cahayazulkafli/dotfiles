@@ -1,5 +1,5 @@
 configuration {
-    font: 							"Iosevka Nerd Font 12";
+    font: 							"CaskaydiaCove Nerd Font 12";
     fixed-num-lines: 				true;
     show-icons: 					false;
     sidebar-mode: 					true;
