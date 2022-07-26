@@ -30,3 +30,4 @@ Modify all these configurations to your heart's liking!
 # Preview of the configurations
 ![bruh](https://user-images.githubusercontent.com/105838572/180804119-8c26b5da-00b4-47f1-8a9b-68a160dd4cd1.png)
 ![dotfiles-github-screenshot-2](https://user-images.githubusercontent.com/105838572/180804231-4e0c3c07-74a2-4c41-89e0-6bd8c23a4030.png)
+![dotfiles-github-screenshot-3](https://user-images.githubusercontent.com/105838572/180922914-80d32093-3ecb-4354-9b0a-6b883c4c3184.png)
