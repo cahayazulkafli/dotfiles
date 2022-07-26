@@ -3,13 +3,13 @@
 Mainly for Arch and Gentoo (with slight modifications of rofi shell scripts), but still usable for other distributions.
 
 # Required dependencies:
-- bspwm (Tiling window manager to use)
-- sxhkd (Keybinding daemon)
+- bspwm (Tiling window manager in use)
+- sxhkd (Keybindings daemon)
 - polybar (Bar panel)
 - rofi (Run launcher and powermenu)
 - git (To git clone this repository)
-- alacritty (Terminal)
-- picom-jonaburg (Other picom forks are okay)
+- alacritty or st (Terminal)
+- picom (I use picom-jonaburg but any other forks are good)
 - dunst (Notification daemon)
 - nerd-fonts (Icons in the panel and terminal)
 - nitrogen (Wallpaper setter)
