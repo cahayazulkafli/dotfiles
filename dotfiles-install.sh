@@ -1,5 +1,6 @@
 #!/bin/sh
 
+cd ~/
 sudo pacman -Syu xorg vim alacritty git sxhkd bspwm zsh wget curl polybar nitrogen lxappearance neofetch dunst xfce4-power-manager rofi
 
 git clone https://aur.archlinux.org/yay-git.git && cd yay-git && makepkg -si && cd .. && rm -rf yay-git
