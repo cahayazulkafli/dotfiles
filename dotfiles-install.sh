@@ -13,7 +13,7 @@ cd st/ && chmod +x recompile.sh && ./recompile.sh
 cd .. && cd bspwm/ && chmod +x bspwmrc dunstrc
 cd .. && cd sxhkd/ && chmod +x sxhkdrc
 cd .. && cd rofi/launchers/ && chmod +x apps.sh powermenu.sh
-cd .. && cd main/ && chmod +x launchers.sh
+cd .. && cd main/ && chmod +x launcher.sh
 cd && cd .config/polybar && chmod +x launch.sh
 cd .. && cp .Xresources ~/ && cp .xinitrc ~/ && cp .zshrc ~/ && cp gentoo.zsh-theme ~/.oh-my-zsh/themes/gentoo.zsh-theme
 cd ~/
