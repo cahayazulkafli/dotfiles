@@ -1,4 +1,3 @@
-
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -18,3 +17,6 @@ esac
 
 [ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 
+alias ll='ls -lah'
+alias la='ls -a'
+alias updaur='yay -Syu --aur'
