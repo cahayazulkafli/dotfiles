@@ -19,4 +19,7 @@ esac
 
 alias ll='ls -lah'
 alias la='ls -a'
+alias rm='rm -iv'
+alias mv='mv -iv'
+alias cp='cp -iv'
 alias updaur='yay -Syu --aur'
