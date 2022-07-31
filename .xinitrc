@@ -24,7 +24,7 @@ if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
 
-# Startx
+# Start some nice programs
 
 if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
@@ -39,6 +39,7 @@ export BROWSER=firefox
 
 # Launch bspwm with startx
 export XDG_SESSION_TYPE=x11
+export DESKTOP_SESSION=bspwm
 export XDG_CURRENT_DESKTOP=bspwm
-exec dbus-run-session bspwm
+#exec dbus-run-session bspwm
 exec bspwm
