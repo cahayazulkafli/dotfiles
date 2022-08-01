@@ -5,7 +5,7 @@ echo "Installing dotfiles..."
 
 # Installing Yay AUR Helper and dependencies
 cd ~/
-    sudo pacman -Syu xorg vim alacritty git sxhkd bspwm zsh wget curl polybar nitrogen lxappearance neofetch dunst xfce4-power-manager rofi
+    sudo pacman -Syu xorg vim alacritty git sxhkd bspwm zsh wget curl polybar nitrogen lxappearance neofetch dunst xfce4-power-manager rofi powerline powerline-common python-powerline powerline-vim powerline-fonts vim-airline vim-airline-themes
 
 git clone https://aur.archlinux.org/yay-git.git && makepkg -si
     yay -Syu betterlockscreen picom-jonaburg-git xfce-polkit nerd-fonts-complete ksuperkey
