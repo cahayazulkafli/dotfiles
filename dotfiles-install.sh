@@ -1,5 +1,6 @@
 #!/bin/sh
 
+echo "Dotfiles configuration by cahayazulkafli @ gitlab.com/cahayazulkafli"
 echo "Installing dotfiles..."
 
 # Installing Yay AUR Helper and dependencies
