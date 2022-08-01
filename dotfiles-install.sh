@@ -21,7 +21,7 @@ mkdir ~/.config && cd ~/.config
         cd .. && cd rofi/launchers/ && chmod +x apps.sh powermenu.sh
         cd .. && cd main/ && chmod +x launcher.sh
         cd && cd .config/polybar && chmod +x launch.sh
-        cd .. && cp .Xresources ~/ && cp .xinitrc ~/ && cp .zshrc ~/ && cp gentoo.zsh-theme ~/.oh-my-zsh/themes/gentoo.zsh-theme
+        cd .. && cp .Xresources ~/ && cp .xinitrc ~/ && cp .zshrc ~/ && cp gentoo.zsh-theme ~/.oh-my-zsh/themes/gentoo.zsh-theme && omz theme set gentoo
 cd ~/
 
 echo "Done!"
