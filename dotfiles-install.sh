@@ -6,10 +6,8 @@ echo "Installing dotfiles..."
 cd ~/
     sudo pacman -Syu xorg vim alacritty git sxhkd bspwm zsh wget curl polybar nitrogen lxappearance neofetch dunst xfce4-power-manager rofi
 
-cd /opt
-    git clone https://aur.archlinux.org/yay-git.git && makepkg -si
-        yay -Syu betterlockscreen picom-jonaburg-git xfce-polkit nerd-fonts-complete ksuperkey
-cd ~/
+git clone https://aur.archlinux.org/yay-git.git && makepkg -si
+    yay -Syu betterlockscreen picom-jonaburg-git xfce-polkit nerd-fonts-complete ksuperkey
 
 # Installing OhMyZsh
 sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
