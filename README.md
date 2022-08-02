@@ -24,7 +24,7 @@ Use any AUR helper (yay, paru, aura, etc.) to download required dependencies.
 
 Installing OhMyZsh and modified Gentoo theme:
 
-`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+`sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
 
 `cp gentoo.zsh-theme ~/.oh-my-zsh/themes/gentoo.zsh-theme`
 
