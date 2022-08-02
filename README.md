@@ -1,6 +1,10 @@
 # Dotfiles for BSPWM, a manual tiling window manager.
 
-Mainly for Arch Linux, but still usable for other distributions.
+Mainly for Arch Linux, but still usable for other distributions. 
+Distributions tested:
+
+- Debian
+- Arch Linux
 
 # Required dependencies:
 - bspwm (Tiling window manager in use)
@@ -14,13 +18,14 @@ Mainly for Arch Linux, but still usable for other distributions.
 - nerd-fonts (Icons in the panel and terminal)
 - nitrogen (Wallpaper setter)
 - betterlockscreen (IMHO the best lock screen application)
-- xfce-polkit (polkit agent)
-- zsh (preferred shell)
+- xfce-polkit (Polkit agent)
+- zsh (Preferred shell)
+- ksuperkey (Change Super Key as run launcher key)
 
-# Installing dependencies: 
+# Installing dependencies: Arch Linux
 Use any AUR helper (yay, paru, aura, etc.) to download required dependencies. If you don't have `base-devel` installed, then install it first before installing required dependencies. 
 
-`yay -Syu bspwm sxhkd polybar rofi git alacritty picom-jonaburg-git betterlockscreen dunst nerd-fonts-complete nitrogen xfce-polkit zsh`
+`yay -Syu bspwm sxhkd polybar rofi git alacritty ksuperkey picom-jonaburg-git betterlockscreen dunst nerd-fonts-complete nitrogen xfce-polkit zsh`
 
 Installing OhMyZsh and modified theme:
 
@@ -35,6 +40,9 @@ Installing st (if you don't want to use alacritty):
 `cp -r st ~/.config/`
 
 `cd ~/.config/st && chmod +x recompile.sh && ./recompile.sh`
+
+# Installing dependencies: Other Linux distributions
+Find and install the required dependencies if it is available in your distribution's repository. If not, you have to compile the software yourself. 
 
 # Important things to do after cloning this repository!
 
