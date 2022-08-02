@@ -54,6 +54,8 @@ Find and install the required dependencies if it is available in your distributi
 - polybar: https://github.com/polybar/polybar
 - dunst: https://github.com/dunst-project/dunst
 
+To install st and OhMyZsh, refer to previous installation for Arch Linux.
+
 # Important things to do after cloning this repository!
 
 Don't forget to (without sudo) chmod +x all shell scripts that is in this repository. Failure to do so will make your desktop unusable. Audit files thoroughly and edit as you see fit.
