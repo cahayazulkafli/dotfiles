@@ -8,20 +8,20 @@ Distributions tested:
 - Arch Linux
 
 # Required dependencies:
-- bspwm (Tiling window manager in use)
-- sxhkd (Keybindings daemon)
-- polybar (Bar panel)
-- rofi (Run launcher and powermenu)
-- git (To git clone this repository)
-- alacritty or st (Terminal)
-- picom (I use picom-jonaburg but any other forks are good)
-- dunst (Notification daemon)
-- nerd-fonts (Icons in the panel and terminal)
-- nitrogen (Wallpaper setter)
-- betterlockscreen (IMHO the best lock screen application)
-- xfce-polkit (Polkit agent)
-- zsh (Preferred shell)
-- ksuperkey (Change Super Key as run launcher key)
+- bspwm
+- sxhkd
+- polybar
+- rofi
+- git
+- alacritty or st
+- picom
+- dunst
+- nerd-fonts
+- nitrogen
+- betterlockscreen
+- xfce-polkit 
+- zsh
+- ksuperkey
 
 # Installing dependencies: Arch Linux
 Use any AUR helper (yay, paru, aura, etc.) to download required dependencies. If you don't have `base-devel` installed, then install it first before installing required dependencies. 
