@@ -1,6 +1,7 @@
 # Dotfiles for BSPWM, a manual tiling window manager.
 
 Mainly for Arch Linux, but still usable for other distributions. 
+
 Distributions tested:
 
 - Debian
@@ -40,6 +41,18 @@ Installing st (if you don't want to use alacritty):
 
 # Installing dependencies: Other Linux distributions
 Find and install the required dependencies if it is available in your distribution's repository. If not, you have to compile the software yourself. 
+
+- ksuperkey: https://github.com/hanschen/ksuperkey
+- xfce-polkit: https://github.com/ncopa/xfce-polkit
+- picom-jonaburg: https://github.com/jonaburg/picom
+- nerd-fonts: https://www.nerdfonts.com/
+- bspwm: https://github.com/baskerville/bspwm
+- sxhkd: https://github.com/baskerville/sxhkd
+- alacritty: https://github.com/alacritty/alacritty
+- betterlockscreen: https://github.com/betterlockscreen/betterlockscreen
+- rofi: https://github.com/davatorium/rofi
+- polybar: https://github.com/polybar/polybar
+- dunst: https://github.com/dunst-project/dunst
 
 # Important things to do after cloning this repository!
 
