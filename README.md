@@ -20,9 +20,9 @@ Mainly for Arch Linux, but still usable for other distributions.
 # Installing dependencies: 
 Use any AUR helper (yay, paru, aura, etc.) to download required dependencies. If you don't have `base-devel` installed, then install it first before installing required dependencies. 
 
-`yay -Syu bspwm sxhkd polybar rofi git alacritty picom-jonaburg-git dunst nerd-fonts-complete nitrogen xfce-polkit zsh`
+`yay -Syu bspwm sxhkd polybar rofi git alacritty picom-jonaburg-git betterlockscreen dunst nerd-fonts-complete nitrogen xfce-polkit zsh`
 
-Installing OhMyZsh and modified Gentoo theme:
+Installing OhMyZsh and modified theme:
 
 `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
 
@@ -30,7 +30,7 @@ Installing OhMyZsh and modified Gentoo theme:
 
 `omz theme set gentoo`
 
-Installing st as terminal:
+Installing st (if you don't want to use alacritty):
 
 `cp -r st ~/.config/`
 
