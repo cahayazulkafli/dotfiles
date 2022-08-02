@@ -1,4 +1,4 @@
-# dotfiles for BSPWM, a manual tiling window manager.
+# Dotfiles for BSPWM, a manual tiling window manager.
 
 Mainly for Arch Linux, but still usable for other distributions.
 
@@ -18,7 +18,7 @@ Mainly for Arch Linux, but still usable for other distributions.
 - zsh (preferred shell)
 
 # Installing dependencies: 
-Use any AUR helper (yay, paru, aura, etc.) to download required dependencies.
+Use any AUR helper (yay, paru, aura, etc.) to download required dependencies. If you don't have `base-devel` installed, then install it first before installing required dependencies. 
 
 `yay -Syu bspwm sxhkd polybar rofi git alacritty picom-jonaburg-git dunst nerd-fonts-complete nitrogen xfce-polkit zsh`
 
