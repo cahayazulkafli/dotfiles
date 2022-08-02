@@ -15,11 +15,20 @@ Mainly for Arch Linux, but still usable for other distributions.
 - nitrogen (Wallpaper setter)
 - betterlockscreen (IMHO the best lock screen application)
 - xfce-polkit (polkit agent)
+- zsh (preferred shell)
 
 # Installing dependencies: 
 Use any AUR helper (yay, paru, aura, etc.) to download required dependencies.
 
-`yay -Syu bspwm sxhkd polybar rofi git alacritty picom-jonaburg-git dunst nerd-fonts-complete nitrogen xfce-polkit`
+`yay -Syu bspwm sxhkd polybar rofi git alacritty picom-jonaburg-git dunst nerd-fonts-complete nitrogen xfce-polkit zsh`
+
+Installing OhMyZsh and modified Gentoo theme:
+
+`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
+`cp gentoo.zsh-theme ~/.oh-my-zsh/themes/gentoo.zsh-theme`
+
+`omz theme set gentoo`
 
 Installing st as terminal:
 
