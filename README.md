@@ -25,18 +25,18 @@ Distributions tested:
 # Installing dependencies: Arch Linux
 Use any AUR helper (yay, paru, aura, etc.) to download required dependencies. If you don't have `base-devel` installed, then install it first before installing required dependencies. 
 
-    `yay -Syu bspwm sxhkd polybar rofi git alacritty ksuperkey picom-jonaburg-git betterlockscreen dunst nerd-fonts-complete nitrogen xfce-polkit zsh`
+    yay -Syu bspwm sxhkd polybar rofi git alacritty ksuperkey picom-jonaburg-git betterlockscreen dunst nerd-fonts-complete nitrogen xfce-polkit zsh
 
 Installing OhMyZsh and modified theme:
 
-    `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
-    `cp gentoo.zsh-theme ~/.oh-my-zsh/themes/gentoo.zsh-theme`
-    `omz theme set gentoo`
+    sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+    cp gentoo.zsh-theme ~/.oh-my-zsh/themes/gentoo.zsh-theme
+    omz theme set gentoo
 
 Installing st (if you don't want to use alacritty):
 
-    `cp -r st ~/.config/`
-    `cd ~/.config/st && chmod +x recompile.sh && ./recompile.sh`
+    cp -r st ~/.config/
+    cd ~/.config/st && chmod +x recompile.sh && ./recompile.sh
 
 # Installing dependencies: Other Linux distributions
 Find and install the required dependencies if it is available in your distribution's repository. If not, you have to compile the software yourself. 
