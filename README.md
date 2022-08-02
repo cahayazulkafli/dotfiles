@@ -24,8 +24,9 @@ Distributions tested:
 - ksuperkey
 
 # Installing dependencies: Arch Linux
-Use any AUR helper (yay, paru, aura, etc.) to download required dependencies. If you don't have `base-devel` installed, then install it first before installing required dependencies. 
+Use any AUR helper (yay, paru, aura, etc.). If you don't have `base-devel` installed, install it first before installing required dependencies.
 
+    pacman -S --needed base-devel
     yay -Syu bspwm sxhkd polybar rofi git alacritty ksuperkey picom-jonaburg-git betterlockscreen dunst nerd-fonts-complete nitrogen xfce-polkit zsh
 
 Installing OhMyZsh and modified theme:
