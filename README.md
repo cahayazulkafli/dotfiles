@@ -1,6 +1,6 @@
 # dotfiles for BSPWM, a manual tiling window manager.
 
-Mainly for Arch and Gentoo (with slight modifications of rofi shell scripts), but still usable for other distributions.
+Mainly for Arch Linux, but still usable for other distributions.
 
 # Required dependencies:
 - bspwm (Tiling window manager in use)
@@ -23,7 +23,7 @@ Use any AUR helper (yay, paru, aura, etc.) to download required dependencies.
 
 Installing st as terminal:
 
-`cp st ~/.config`
+`cp -r st ~/.config/`
 
 `cd ~/.config/st && chmod +x recompile.sh && ./recompile.sh`
 
