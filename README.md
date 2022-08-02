@@ -30,15 +30,12 @@ Use any AUR helper (yay, paru, aura, etc.) to download required dependencies. If
 Installing OhMyZsh and modified theme:
 
     `sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
-
     `cp gentoo.zsh-theme ~/.oh-my-zsh/themes/gentoo.zsh-theme`
-
     `omz theme set gentoo`
 
 Installing st (if you don't want to use alacritty):
 
     `cp -r st ~/.config/`
-
     `cd ~/.config/st && chmod +x recompile.sh && ./recompile.sh`
 
 # Installing dependencies: Other Linux distributions
