@@ -14,6 +14,18 @@ Mainly for Arch and Gentoo (with slight modifications of rofi shell scripts), bu
 - nerd-fonts (Icons in the panel and terminal)
 - nitrogen (Wallpaper setter)
 - betterlockscreen (IMHO the best lock screen application)
+- xfce-polkit (polkit agent)
+
+# Installing dependencies: 
+Use any AUR helper (yay, paru, aura, etc.) to download required dependencies.
+
+`yay -Syu bspwm sxhkd polybar rofi git alacritty picom-jonaburg-git dunst nerd-fonts-complete nitrogen xfce-polkit`
+
+Installing st as terminal:
+
+`cp st ~/.config`
+
+`cd ~/.config/st && chmod +x recompile.sh && ./recompile.sh`
 
 # Important things to do after cloning this repository!
 
