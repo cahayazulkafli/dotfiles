@@ -6,6 +6,7 @@ Distributions tested:
 
 - Debian
 - Arch Linux
+- Gentoo Linux (with rofi edits)
 
 # Required dependencies:
 - bspwm
