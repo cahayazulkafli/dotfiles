@@ -7,7 +7,7 @@ echo "Installing dotfiles..."
 cd ~/
     sudo pacman -Syu xorg vim alacritty git sxhkd bspwm zsh wget curl polybar nitrogen lxappearance neofetch dunst xfce4-power-manager rofi powerline powerline-common python-powerline powerline-vim powerline-fonts vim-airline vim-airline-themes
 
-git clone https://aur.archlinux.org/yay-git.git && makepkg -si
+git clone https://aur.archlinux.org/yay-git.git && makepkg -si && cd ~/ && rm -rf yay-git
     yay -Syu betterlockscreen picom-jonaburg-git xfce-polkit nerd-fonts-complete ksuperkey
 
 # Installing OhMyZsh
@@ -25,4 +25,4 @@ mkdir ~/.config && cd ~/.config
         cd .. && cp .Xresources ~/ && cp .xinitrc ~/ && cp .zshrc ~/ && cp gentoo.zsh-theme ~/.oh-my-zsh/themes/gentoo.zsh-theme && omz theme set gentoo
 cd ~/
 
-echo "Done!"
+echo "Done, edit files to your liking!"
