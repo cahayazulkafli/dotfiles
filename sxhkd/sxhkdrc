@@ -7,7 +7,7 @@ super + Return
 	alacritty
 
 super + shift + Return
-  st
+	st
 
 ##---------- Launcher & Menus ----------##
 
@@ -19,15 +19,11 @@ alt + F1
 super + x 
 	sh ~/.config/rofi/launchers/powermenu.sh
 
-# Rofi common apps
-super + a
-	sh ~/.config/rofi/launchers/apps.sh
-
 ##---------- Applications ----------##
 
 # Launch Apps
-super + shift + {f,w,d,n}
-	{thunar,firefox,discord,nitrogen}
+super + shift + {f,w,d,n,v,t,g,s,l}
+	{thunar,firefox,discord,nitrogen,code-oss,thunderbird,gimp,spotify,lxappearance}
 
 # Emacs
 super + shift + e
