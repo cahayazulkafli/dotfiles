@@ -13,7 +13,7 @@ configuration {
 
 window {
     transparency:                   "real";
-    border-radius:                  12px;
+    border-radius:                  2px;
     width:                          100px;
     location:                       east;
     x-offset:                       -15px;
@@ -38,7 +38,7 @@ element {
     background-color:               @background-light;
     text-color:                     @foreground;
     orientation:                    vertical;
-    border-radius:                  12px;
+    border-radius:                  0px;
 }
 
 element-text {
@@ -55,7 +55,7 @@ element normal.urgent,
 element alternate.urgent {
     background-color:               @urgent;
     text-color:                     @foreground;
-    border-radius:                  10px;
+    border-radius:                  0px;
 }
 
 element normal.active,
