@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/usr/bin/env bash
 
 ## Config file created by Pentacloud, 11/06/22
 
