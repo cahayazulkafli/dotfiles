@@ -13,7 +13,7 @@ configuration {
 
 window {
     transparency:                   "real";
-    border-radius:                  2px;
+    border-radius:                  0px;
     width:                          100px;
     location:                       east;
     x-offset:                       -15px;
@@ -68,7 +68,7 @@ element selected {
     background-color:               @accent;
     text-color:                     @background;
     border:                  		0px;
-    border-radius:                  10px;
+    border-radius:                  0px;
     border-color:                  	@border;
 }
 
