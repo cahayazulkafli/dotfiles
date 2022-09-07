@@ -30,7 +30,7 @@ Use any AUR helper (yay, paru, aura, etc.). If you don't have `base-devel` insta
     pacman -S base-devel
     yay -Syu bspwm sxhkd polybar rofi git alacritty ksuperkey picom-jonaburg-git betterlockscreen dunst nerd-fonts-complete nitrogen xfce-polkit zsh
 
-Installing OhMyZsh and modified theme:
+Installing OhMyZsh and my modified theme:
 
     sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
     cp gentoo.zsh-theme ~/.oh-my-zsh/themes/gentoo.zsh-theme
