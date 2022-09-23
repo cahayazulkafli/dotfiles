@@ -28,7 +28,10 @@ Distributions tested:
 Use any AUR helper (yay, paru, aura, etc.). If you don't have `base-devel` installed, install it first before installing required dependencies.
 
     pacman -S base-devel
-    yay -Syu bspwm sxhkd polybar rofi git alacritty ksuperkey picom-jonaburg-git betterlockscreen dunst nerd-fonts-complete nitrogen xfce-polkit zsh
+    yay -Syu bspwm sxhkd polybar rofi git alacritty \
+    ksuperkey picom-jonaburg-git betterlockscreen \
+    dunst nerd-fonts-complete nitrogen \ 
+    xfce-polkit zsh networkmanager-dmenu-git
 
 Installing OhMyZsh and my modified theme:
 
@@ -40,6 +43,11 @@ Installing st (if you don't want to use alacritty):
 
     cp -r st ~/.config/
     cd ~/.config/st && chmod +x recompile.sh && ./recompile.sh
+
+Installing dmenu for networkmanager_dmenu (can be used to replace rofi as well)
+
+    cp -r dmenu ~/.config/
+    cd ~/.config/dmenu && chmod +x recompile.sh && ./recompile.sh
 
 # Installing dependencies: Other Linux distributions
 Find and install the required dependencies if it is available in your distribution's repository. If not, you have to compile the software yourself. 
@@ -55,8 +63,9 @@ Find and install the required dependencies if it is available in your distributi
 - rofi: https://github.com/davatorium/rofi
 - polybar: https://github.com/polybar/polybar
 - dunst: https://github.com/dunst-project/dunst
+- networkmanager-dmenu: https://github.com/firecat53/networkmanager-dmenu
 
-To install st and OhMyZsh, refer to previous installation for Arch Linux.
+To install st, dmenu and OhMyZsh, refer to previous installation for Arch Linux.
 
 # Important things to do after cloning this repository!
 
