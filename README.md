@@ -51,14 +51,14 @@ Installing st (if you don't want to use alacritty):
     cp -r st ~/.config/
     cd ~/.config/st && chmod +x recompile.sh && ./recompile.sh
 
-Installing dmenu for networkmanager-dmenu (can be used to replace rofi as well)
+Installing dmenu for networkmanager-dmenu (can be used to replace rofi as well):
 
     mkdir ~/.config/
     cp -r dmenu ~/.config/
     cd ~/.config/dmenu && chmod +x recompile.sh && ./recompile.sh
 
 # Installing dependencies: Other Linux distributions
-Find and install the required dependencies if it is available in your distribution's repository. If not, you have to compile the software yourself. 
+Find and install the required dependencies if it's available in your distribution's repository. If not, you have to compile the software yourself. 
 
 - ksuperkey: https://github.com/hanschen/ksuperkey
 - xfce-polkit: https://github.com/ncopa/xfce-polkit
