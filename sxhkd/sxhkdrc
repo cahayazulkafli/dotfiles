@@ -15,15 +15,23 @@ super + shift + Return
 alt + F1  
 	sh ~/.config/rofi/main/launcher.sh
 
+# Dmenu
+super + p
+	dmenu_run
+
 # Rofi powermenu
 super + x 
 	sh ~/.config/rofi/launchers/powermenu.sh
 
+# NetworkManager dmenu
+super + n
+	networkmanager_dmenu
+
 ##---------- Applications ----------##
 
 # Launch Apps
-super + shift + {f,w,d,n,v,t,g,s,l}
-	{thunar,firefox,discord,nitrogen,code-oss,thunderbird,gimp,spotify,lxappearance}
+super + shift + {f,w,d,n,v,t,g,s,l,q}
+	{thunar,firefox,discord,nitrogen,code-oss,thunderbird,gimp,spotify,lxappearance,qutebrowser}
 
 # Emacs
 super + shift + e
