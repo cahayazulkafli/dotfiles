@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-## Config file created by Pentacloud, 11/06/22
+## Config file created by cahayazulkafli, 11/06/22
 
 ##------ Bspwm ------##
 
@@ -27,11 +27,12 @@ bspc rule -r *:*
 
 # Workspace 1 > Terminal
 bspc rule -a Alacritty desktop='^1' follow=on focus=on
-bspc rule -a kitty desktop='^1' follow=on focus=on
+bspc rule -a code-oss desktop='^1' follow=on focus=on
+bspc rule -a cool-retro-term desktop='^1' state=fullscreen follow=on focus=on
 
 # Workspace 2 > Internet browser
 bspc rule -a firefox desktop='^2' follow=on focus=on
-bspc rule -a chromium desktop='^2' follow=on focus=on
+bspc rule- a qutebrowser desktop='^2' follow=on focus=on
 
 # Workspace 3 > File manager, torrent client, etc.
 bspc rule -a qBittorent desktop='^3' follow=on focus=on
@@ -47,6 +48,8 @@ bspc rule -a Viewnior desktop='^4' follow=on focus=on
 bspc rule -a Lutris desktop='^4' follow=on focus=on
 bspc rule -a feh desktop='^4' follow=on focus=on
 bspc rule -a Emacs desktop='^4' state=tiled follow=on focus=on
+bspc rule -a wps desktop='^4' follow=on focus=on
+
 declare -a office=(Gucharmap Atril Evince \
 	libreoffice-writer libreoffice-calc libreoffice-impress \
 	libreoffice-startcenter libreoffice Soffice *:libreofficedev *:soffice)
@@ -65,11 +68,14 @@ bspc rule -a Virt-manager desktop='^5' follow=on focus=on
 bspc rule -a discord desktop='^6' follow=on focus=on
 bspc rule -a Hexchat desktop='^6' follow=on focus=on
 bspc rule -a Thunderbird desktop='^6' follow=on focus=on
+bspc rule -a teams desktop='^6' follow=on focus=on
+bspc rule -a telegram desktop='^6' follow=on focus=on
+bspc rule -a Ferdium desktop='^6' follow=on focus=on
 
 ##------ Essential startup apps ------## 
 
 # Kill existing apps before restarting bspwm
-killall -9 sxhkd dunst ksuperkey xfce4-power-manager  
+killall -9 sxhkd dunst ksuperkey xfce4-power-manager picom
 
 # Fix cursors in WM
 xsetroot -cursor_name left_ptr &
@@ -81,6 +87,9 @@ fi
 
 # Launch keybindings daemon
 sxhkd &
+
+# Bspwm master stack mode
+bsp-layout set tall &
 
 # Enable Super Key as menu key
 ksuperkey -e 'Super_L=Alt_L|F1' &
@@ -103,5 +112,8 @@ nitrogen --restore &
 
 # Set default sink (wireless headphone)
 sh ~/.config/bspwm/wireless-headphone.sh &
+
+# Launch emacs daemon
+# emacs --daemon &
 
 ##------ EOF ------##
