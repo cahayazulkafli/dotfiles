@@ -27,7 +27,7 @@ Distributions tested:
 - networkmanager-dmenu
 - bsp-layout
 
-(You can opt from git cloning dmenu and st since my build will overwrite yours anyway.)
+(You can opt out from git cloning dmenu and st since my build will overwrite yours anyway.)
 
 # Installing dependencies: Arch Linux
 Use any AUR helper (yay, paru, aura, etc.). If you don't have `base-devel` installed, install it first before installing required dependencies.
