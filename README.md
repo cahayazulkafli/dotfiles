@@ -90,3 +90,5 @@ Modify all these configurations to your heart's liking!
 ![dotfiles-github-screenshot-2](https://user-images.githubusercontent.com/105838572/180804231-4e0c3c07-74a2-4c41-89e0-6bd8c23a4030.png)
 ![dotfiles-github-screenshot-3](https://user-images.githubusercontent.com/105838572/180922914-80d32093-3ecb-4354-9b0a-6b883c4c3184.png)
 ![Screenshot_2022-09-23_13-12-48](https://user-images.githubusercontent.com/105838572/191895860-7042e637-c14a-497e-ba4e-95e4b1d9ab94.png)
+
+https://user-images.githubusercontent.com/105838572/191898328-448ed8c6-4e00-4c4c-a519-ecaf2c6926fb.mp4
