@@ -25,6 +25,7 @@ Distributions tested:
 - zsh
 - ksuperkey
 - networkmanager-dmenu
+- bsp-layout
 
 (You can opt from git cloning dmenu and st since my build will overwrite yours anyway.)
 
@@ -35,7 +36,8 @@ Use any AUR helper (yay, paru, aura, etc.). If you don't have `base-devel` insta
     yay -Syu bspwm sxhkd polybar rofi git alacritty \
     ksuperkey picom-jonaburg-git betterlockscreen \
     dunst nerd-fonts-complete nitrogen \ 
-    xfce-polkit zsh networkmanager-dmenu-git
+    xfce-polkit zsh networkmanager-dmenu-git \ 
+    bsp-layout-git \
 
 Installing OhMyZsh and my modified theme:
 
@@ -70,6 +72,7 @@ Find and install the required dependencies if it is available in your distributi
 - polybar: https://github.com/polybar/polybar
 - dunst: https://github.com/dunst-project/dunst
 - networkmanager-dmenu: https://github.com/firecat53/networkmanager-dmenu
+- bsp-layout: https://github.com/phenax/bsp-layout
 
 To install st, dmenu and OhMyZsh, refer to previous installation for Arch Linux.
 
