@@ -25,7 +25,6 @@ Distributions tested:
 - zsh
 - ksuperkey
 - networkmanager-dmenu
-- bsp-layout
 
 (You can opt out from git cloning dmenu and st since my build will overwrite yours anyway.)
 
