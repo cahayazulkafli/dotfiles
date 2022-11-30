@@ -28,18 +28,16 @@ bspc rule -r *:*
 # Workspace 1 > Terminal
 bspc rule -a Alacritty desktop='^1' follow=on focus=on
 bspc rule -a code-oss desktop='^1' follow=on focus=on
-bspc rule -a cool-retro-term desktop='^1' state=fullscreen follow=on focus=on
 
 # Workspace 2 > Internet browser
 bspc rule -a firefox desktop='^2' follow=on focus=on
-bspc rule- a qutebrowser desktop='^2' follow=on focus=on
+bspc rule -a qutebrowser desktop='^2' follow=on focus=on
 
 # Workspace 3 > File manager, torrent client, etc.
 bspc rule -a qBittorent desktop='^3' follow=on focus=on
 bspc rule -a Transmission-gtk desktop='^3' follow=on focus=on
 bspc rule -a Xarchiver desktop='^3' state=floating follow=on focus=on
 bspc rule -a Thunar desktop='^3' state=floating follow=on focus=on
-bspc rule -a Pcmanfm desktop='^3' follow=on focus=on
 
 # Workspace 4 > Media
 bspc rule -a obs desktop='^4' state=floating follow=on focus=on
@@ -48,8 +46,8 @@ bspc rule -a Viewnior desktop='^4' follow=on focus=on
 bspc rule -a Lutris desktop='^4' follow=on focus=on
 bspc rule -a feh desktop='^4' follow=on focus=on
 bspc rule -a Emacs desktop='^4' state=tiled follow=on focus=on
-bspc rule -a wps desktop='^4' follow=on focus=on
-
+bspc rule -a Wps desktop='^4' follow=on focus=on
+bspc rule -a Steam desktop='^4' state=floating follow=on focus=on
 declare -a office=(Gucharmap Atril Evince \
 	libreoffice-writer libreoffice-calc libreoffice-impress \
 	libreoffice-startcenter libreoffice Soffice *:libreofficedev *:soffice)
@@ -88,9 +86,6 @@ fi
 # Launch keybindings daemon
 sxhkd &
 
-# Bspwm master stack mode
-bsp-layout set tall &
-
 # Enable Super Key as menu key
 ksuperkey -e 'Super_L=Alt_L|F1' &
 ksuperkey -e 'Super_R=Alt_L|F1' &
@@ -109,9 +104,6 @@ dunst -conf ~/.config/bspwm/dunstrc &
 
 # Restore wallpaper
 nitrogen --restore &
-
-# Set default sink (wireless headphone)
-sh ~/.config/bspwm/wireless-headphone.sh &
 
 # Launch emacs daemon
 # emacs --daemon &
